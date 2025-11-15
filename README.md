@@ -46,53 +46,28 @@ Splits incoming traffic between the two EC2 instances. A listener on port 80 for
 Pre-created for future use, such as serving static content or storing logs.
 
 ---
-This project highlights several real-world Cloud and DevOps skills:
+ ## By completing this project, you will gain hands-on experience and a deeper understanding of:
+ ## Cloud Infrastructure:
+ ## VPC Design:
+ Creating and configuring a custom Virtual Private Cloud.
+Subnetting across multiple Availability Zones: Designing a network layout for high availability and fault tolerance.
+Internet Gateway and route configuration: Enabling internet connectivity for public resources.
+Security Groups following least-privilege rules: Implementing network-level security.
+## Compute and Web Hosting:
+EC2 provisioning with Terraform: Automating the launch of virtual servers.
+Apache installation through user data: Using bootstrap scripts for software setup.
+Load balanced web servers with health checks: Ensuring application availability and traffic distribution.
+## Storage:
+S3 bucket creation for static content and future use cases: Understanding object storage for various purposes.
+## Infrastructure as Code (IaC):
+AWS infrastructure managed using Terraform: Applying IaC principles to cloud deployments.
+Use of providers, resources, variables, and outputs: Mastering the core components of Terraform.
+Dependency handling and remote state management: Understanding how Terraform manages resource creation order and state (though remote state setup is a future enhancement for this project).
+Environment cleanup using terraform destroy: Efficiently tearing down infrastructure.
+## Automation:
+Automated provisioning of network, compute, and load balancing: Deploying complex environments with a single command.
+Reproducible deployments: Ensuring consistent environments every time.
 
-Cloud Infrastructure
-
-VPC design
-
-Subnetting across multiple Availability Zones
-
-Internet Gateway and routing configuration
-
-Security Group design following least-privilege rules
-
-Application Load Balancer setup
-
-Compute & Web Hosting
-
-EC2 provisioning with Terraform
-
-Apache installation and configuration using user data
-
-Load-balanced web servers with health checks
-
-Storage
-
-S3 bucket creation for static content and future use cases
-
-Infrastructure as Code (IaC)
-
-Building AWS infrastructure using Terraform
-
-Working with providers, resources, variables, and outputs
-
-Managing dependencies and state
-
-Clean environment teardown using terraform destroy
-
-Automation
-
-Fully automated provisioning of network, compute, and load balancing
-
-Reproducible deployments with one command
-
-Version Control
-
-GitHub repository structure
-
-Using Git to manage IaC changes
 ## Prerequisites
 
 Before running this project, make sure you have:
