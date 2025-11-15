@@ -166,3 +166,21 @@ Here are common issues and quick ways to fix them:
 * **Unhealthy targets in ALB**
   Check Apache is running and verify the user data script.
 
+## Screenshots
+
+## 1. VPC and subnets
+<img width="1920" height="1080" alt="Screenshot (123)" src="https://github.com/user-attachments/assets/5101a69f-f7b5-4121-9fcb-e403a2cb63a7" />
+
+## 2. Load balancer with healthy targets
+<img width="1428" height="368" alt="Screenshot 2025-11-15 144710" src="https://github.com/user-attachments/assets/01ca3187-4ada-491d-b352-751d86b979ce" />
+
+## 3. EC2 instances
+<img width="1920" height="1080" alt="Screenshot (122)" src="https://github.com/user-attachments/assets/4a93c913-5d40-4b6a-80da-2aec493f665c" />
+
+## 4. output of terminal
+<img width="1920" height="1080" alt="Screenshot (117)" src="https://github.com/user-attachments/assets/80b6f576-6803-4977-aa1d-deae57f06371" />
+
+## 5. Web page output
+<img width="1920" height="1080" alt="Screenshot (116)" src="https://github.com/user-attachments/assets/e5ed59e4-2b43-4ffb-8d14-1a0d12bb1242" />
+
+
