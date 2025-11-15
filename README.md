@@ -3,6 +3,9 @@
 This project builds a complete AWS web infrastructure using Terraform. It’s designed to show how you can provision cloud resources in a predictable, repeatable way and automate everything from networking to load-balanced web servers.
 
 ---
+# Architecture of Terraform Automated AWS Web Infrastructure
+![AWS Terraform Infra](https://github.com/user-attachments/assets/7462b8e6-4ebb-43e2-a75f-403105b31da0)
+
 
 ## Overview
 
@@ -43,7 +46,53 @@ Splits incoming traffic between the two EC2 instances. A listener on port 80 for
 Pre-created for future use, such as serving static content or storing logs.
 
 ---
+This project highlights several real-world Cloud and DevOps skills:
 
+Cloud Infrastructure
+
+VPC design
+
+Subnetting across multiple Availability Zones
+
+Internet Gateway and routing configuration
+
+Security Group design following least-privilege rules
+
+Application Load Balancer setup
+
+Compute & Web Hosting
+
+EC2 provisioning with Terraform
+
+Apache installation and configuration using user data
+
+Load-balanced web servers with health checks
+
+Storage
+
+S3 bucket creation for static content and future use cases
+
+Infrastructure as Code (IaC)
+
+Building AWS infrastructure using Terraform
+
+Working with providers, resources, variables, and outputs
+
+Managing dependencies and state
+
+Clean environment teardown using terraform destroy
+
+Automation
+
+Fully automated provisioning of network, compute, and load balancing
+
+Reproducible deployments with one command
+
+Version Control
+
+GitHub repository structure
+
+Using Git to manage IaC changes
 ## Prerequisites
 
 Before running this project, make sure you have:
