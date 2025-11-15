@@ -166,15 +166,3 @@ Here are common issues and quick ways to fix them:
 * **Unhealthy targets in ALB**
   Check Apache is running and verify the user data script.
 
-* **User data not executing**
-  Inspect `/var/log/cloud-init-output.log` on the EC2 instance.
-
----
-
-
-
-It’s a strong project for cloud and DevOps roles and easy to discuss in interviews.
-
----
-
-If you want, I can also help you improve the code structure, add modules, or write a short LinkedIn post describing this project.
