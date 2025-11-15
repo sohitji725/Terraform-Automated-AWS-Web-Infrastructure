@@ -46,7 +46,7 @@ Splits incoming traffic between the two EC2 instances. A listener on port 80 for
 Pre-created for future use, such as serving static content or storing logs.
 
 ---
- ## By completing this project, you will gain hands-on experience and a deeper understanding of:
+
  ## Cloud Infrastructure:
  ## VPC Design:
  Creating and configuring a custom Virtual Private Cloud.
